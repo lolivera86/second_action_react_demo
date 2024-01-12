@@ -30,7 +30,7 @@ jobs:
       - name: Build website
         run: npm run build
       - name: Upload artifacts
-        uses: actions/upload-artifact@V3
+        uses: actions/upload-artifact
         with:
           name: dist-files
           path: | 
